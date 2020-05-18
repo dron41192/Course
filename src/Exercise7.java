@@ -1,23 +1,23 @@
-import com.sun.org.apache.bcel.internal.generic.DCONST;
-
 import java.util.Scanner;
 
 public class Exercise7 {
     public static void main(String[] args) {
-    final int X = 1, Y= 3, Z = 5;
+        final int X = 1, Y = 3, Z = 5;
         Scanner Number = new Scanner(System.in);
         System.out.println("Введите переменную number: ");
         int number = Number.nextInt();
         String check;
 
-        switch (number){
-            case X: check = "Данное значение имеется в константах";
+        switch (number) {
+            case X:
+                check = "Данное значение имеется в константах";
+            case Y:
+                check = "Данное значение имеется в константах";
+            case Z:
+                check = "Данное значение имеется в константах";
                 break;
-            case Y: check = "Данное значение имеется в константах";
-                break;
-            case Z: check = "Данное значение имеется в константах";
-                break;
-            default: check = "Такой константы нет!";
+            default:
+                check = "Такой константы нет!";
                 break;
         }
         System.out.println(check);
