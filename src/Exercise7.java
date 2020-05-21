@@ -6,15 +6,12 @@ public class Exercise7 {
         Scanner Number = new Scanner(System.in);
         System.out.println("Введите переменную number: ");
         int number = Number.nextInt();
-        String check;
+        String check="Данное значение имеется в константах";
 
         switch (number) {
             case X:
-                check = "Данное значение имеется в константах";
             case Y:
-                check = "Данное значение имеется в константах";
             case Z:
-                check = "Данное значение имеется в константах";
                 break;
             default:
                 check = "Такой константы нет!";
